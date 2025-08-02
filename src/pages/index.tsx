@@ -16,12 +16,13 @@ export default function Home() {
       
       
 <div className="mt-6">
-  <Image 
+  <Image
   src="/abulele.jpg"  // Must match filename exactly
-  alt="Abulele"
+  alt="Abulele Maqungo"
   width={200}         // Required
   height={200}        // Required
-  className="rounded-full"
+  priority            // Ensures immediate loading
+  className="rounded-full border-4 border-white shadow-lg"
 />
 </div>
     </div>
